@@ -1,4 +1,4 @@
-import React from "react";
+import from "react";
 import { Link } from "react-router-dom";
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
         <div className="row p-5 ">
           <div className=" mb-3 text-center ">
             <Link to="/" className="navbar-brand me-auto fw-bold">
-              React Manyağı
+              React
             </Link>
           </div>
           <div className="col ">
