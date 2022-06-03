@@ -18,7 +18,7 @@ export default function Navbar() {
 
         {/* // offcanvas */}
         <Link to={"/"} className="navbar-brand me-auto fw-bold">
-          React Manyağı
+          React 
         </Link>
 
         <i
