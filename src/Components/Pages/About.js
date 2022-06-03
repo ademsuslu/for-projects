@@ -8,7 +8,7 @@ export default function About() {
         <div className="row p-5 ">
           <div className=" mb-3 text-center ">
             <Link to="/" className="navbar-brand me-auto fw-bold">
-              React
+              React About
             </Link>
           </div>
           <div className="col ">
