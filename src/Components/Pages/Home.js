@@ -48,7 +48,7 @@ export default function Home() {
             <div className="card d-flex">
               <div className="card-header text-center ">
                 <Link to="/" className="navbar-brand me-auto fw-bold">
-                  React Manyağı
+                  React
                 </Link>
               </div>
               <div className="card-body">
