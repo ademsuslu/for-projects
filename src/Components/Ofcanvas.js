@@ -89,7 +89,7 @@ export default function Ofcanvas() {
               id="collapseWidthExample"
             >
               <div className="card card-body" style={{ width: "200px" }}>
-                Welcome to React Manyağı has Home
+                Welcome to React 
               </div>
             </div>
           </div>
