@@ -1,0 +1,123 @@
+:root {
+    --offcanvas-width: 230px;
+    --topNavbarHeight: 70px;
+}
+
+.sidebar-nav {
+    width: var(--offcanvas-width) !important;
+}
+
+/* Motion Page*/
+
+
+.box1 {
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 5rem;
+    height: 5rem;
+    background-color: blueviolet;
+}
+
+.box2 {
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 5rem;
+    height: 5rem;
+    background-color: wheat;
+}
+
+.box3 {
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 5rem;
+    height: 5rem;
+    background-color: darkorange;
+
+}
+
+.box4 {
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 5rem;
+    height: 5rem;
+    background-color: crimson;
+    border-radius: 16px;
+
+}
+
+.box5 {
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 5rem;
+    height: 5rem;
+    background-color: darkturquoise;
+    border-radius: 16px;
+}
+
+.box6 {
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    border-radius: 16px;
+}
+
+/* Motion Page end*/
+
+
+@media (min-width: 992px) {
+    body {
+        overflow: auto !important;
+    }
+
+    .About {
+        margin-left: var(--offcanvas-width) !important;
+    }
+
+    .Loading {
+        overflow-x: hidden;
+        margin-top: 5rem;
+        margin-left: var(--offcanvas-width) !important;
+    }
+
+    .Contacts {
+        margin-top: 5rem;
+        margin-left: var(--offcanvas-width) !important;
+    }
+
+    .Login {
+        margin-top: 5rem;
+        margin-left: var(--offcanvas-width) !important;
+    }
+
+    .Table {
+        margin-top: 5rem;
+        margin-left: var(--offcanvas-width) !important;
+    }
+
+    .Home {
+        margin-left: var(--offcanvas-width) !important;
+        margin-top: 5rem;
+    }
+
+    .Motion {
+        overflow: hidden;
+        margin-left: var(--offcanvas-width) !important;
+        margin-top: 5rem;
+        background-color: rgb(56, 53, 53);
+        height: 100vh;
+        margin: 0;
+    }
+
+    .offcanvas-backdrop::before {
+        display: none;
+    }
+
+    .sidebar-nav {
+        transform: none !important;
+        visibility: visible !important;
+        top: var(--topNavbarHeight) !important;
+        height: calc(100% - var(--topNavbarHeight));
+    }
+}
